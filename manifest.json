@@ -6,6 +6,12 @@
     "fileName": "crystal.json"
   },
   {
+    "name": "Blatant Crystal",
+    "author": "Lime53",
+    "description": "Blatant crystal settings.",
+    "fileName": "blatantcrystal.json"
+  },
+  {
     "name": "Sword",
     "author": "Lime53",
     "description": "Sword settings.",
