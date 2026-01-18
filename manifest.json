@@ -22,5 +22,11 @@
     "author": "Lime53",
     "description": "Blatant sword settings.",
     "fileName": "blatantsword.json"
+  },
+  {
+    "name": "Depressing Sword",
+    "author": "LarryHits",
+    "description": "Depressing Sword config (?)",
+    "fileName": "DepressingSwordConfig.json"
   }
 ]
