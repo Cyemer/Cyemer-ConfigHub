@@ -18,6 +18,12 @@
     "fileName": "CleanSword.json"
   },
   {
+    "name": "Essential Sword",
+    "author": "mindsetunkown",
+    "description": "Sword config",
+    "fileName": "EssentialSword.json"
+  },
+  {
     "name": "Depressing Sword",
     "author": "LarryHits",
     "description": "Depressing Sword config (?)",
