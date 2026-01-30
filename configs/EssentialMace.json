@@ -19,7 +19,7 @@
       }
     },
     "AimAssist": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Strength": 8,
@@ -39,7 +39,7 @@
       }
     },
     "WTap": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Mode": "S",
@@ -162,7 +162,7 @@
       }
     },
     "AutoJumpReset": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Mode": "Normal",
@@ -327,7 +327,7 @@
       }
     },
     "AutoTotem": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Fast Delay (ms)": 20,
@@ -338,7 +338,7 @@
       }
     },
     "HoverTotem": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Mode": "Both",
@@ -400,7 +400,7 @@
       }
     },
     "Prevent": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Prevent Escape": true,
