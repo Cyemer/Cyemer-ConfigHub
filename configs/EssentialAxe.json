@@ -162,11 +162,11 @@
       }
     },
     "AutoJumpReset": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Mode": "Normal",
-        "Chance %": 100
+        "Chance %": 68
       }
     },
     "ElytraSwap": {
