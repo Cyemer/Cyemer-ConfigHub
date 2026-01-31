@@ -2,7 +2,7 @@
   "theme": "Dark",
   "modules": {
     "TriggerBot": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Crit Prio": true,
@@ -22,15 +22,15 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Strength": 8,
+        "Strength": 2.8,
         "Pattern": "Sine",
-        "Randomness": 0.15,
+        "Randomness": 0.2,
         "Stop Mode": "Hitbox Edge",
-        "Hitbox Padding": 0.013,
-        "Distance": 7,
-        "FOV": 135,
+        "Hitbox Padding": 0.05,
+        "Distance": 5.5,
+        "FOV": 120,
         "Visible Only": false,
-        "Switch Delay (ms)": 65,
+        "Switch Delay (ms)": 80,
         "Players Only": false,
         "Only Weapon": false,
         "Only On Bind": false,
@@ -43,8 +43,8 @@
       "keyCode": -1,
       "settings": {
         "Mode": "S",
-        "Release Time (ms)": 40,
-        "Press Time (ms)": 50,
+        "Release Time (ms)": 50,
+        "Press Time (ms)": 60,
         "On Hit Only": true,
         "Only On Ground": false
       }
@@ -53,9 +53,9 @@
       "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Hold Time (ms)": 70,
-        "Attack Range": 4,
-        "Spam Prevent (ms)": 250,
+        "Hold Time (ms)": 75,
+        "Attack Range": 4.2,
+        "Spam Prevent (ms)": 300,
         "Swap Duration (Ticks)": 1,
         "Auto Switch": true,
         "Mace After": true,
@@ -64,41 +64,41 @@
       }
     },
     "AutoCrystal": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Delay (ms)": 20,
-        "Only On Right Click": false,
+        "Delay (ms)": 15,
+        "Only On Right Click": true,
         "SimClick": true,
         "Swap to crystal on Right Click": true
       }
     },
     "AutoAnchor": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
         "Speed Mode": true,
-        "Speed": 10,
+        "Speed": 9,
         "Use Totem": true,
         "Sim Click": true,
         "Safe Mode": true,
         "Only Own Anchors": true,
         "Silent Rotation": true,
-        "Rotation Strength": 8.5,
-        "Pattern": "Sine",
-        "Jitter": 0.08
+        "Rotation Strength": 15,
+        "Pattern": "Smooth",
+        "Jitter": 0.11
       }
     },
     "AutoMace": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Swing Range": 4,
-        "Aim Range": 11,
+        "Aim Range": 10,
         "Auto Switch": true,
-        "Aim Speed": 25,
-        "Min Fall Dist": 1.3,
-        "Cooldown (ms)": 150,
+        "Aim Speed": 22,
+        "Min Fall Dist": 1.2,
+        "Cooldown (ms)": 300,
         "Stun Slam": true,
         "Weapon Only": false,
         "Aim Mode": "Strict",
@@ -106,14 +106,14 @@
       }
     },
     "AutoPot": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Health": 11,
         "Pot To Health": 18,
-        "Strength": 16,
+        "Strength": 12,
         "Pattern": "Sine",
-        "Randomness": 0.06,
+        "Randomness": 0.08,
         "Silent": true
       }
     },
@@ -170,8 +170,8 @@
       }
     },
     "ElytraSwap": {
-      "enabled": true,
-      "keyCode": 88,
+      "enabled": false,
+      "keyCode": -1,
       "settings": {}
     },
     "Blink": {
@@ -189,8 +189,8 @@
       "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Mode": "Outline",
-        "Color": -1423850066,
+        "Mode": "Box",
+        "Color": -1412625408,
         "Opaque": true,
         "Size": 1,
         "Hide Armor": false,
@@ -249,26 +249,26 @@
       }
     },
     "HitAnimations": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Swing Animation": "Stab",
-        "Swing Speed": 1.5,
+        "Swing Animation": "Slice",
+        "Swing Speed": 1.2,
         "Instant Equip": true,
         "Only Swords": false,
         "Ignore Offhand": true
       }
     },
     "TargetEffect": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Effect": "Spinning Spheres",
-        "Color": -65536,
+        "Color": -16711706,
         "Rainbow": false,
         "Opaque": false,
-        "Speed": 1.5,
-        "Scale": 1.2,
+        "Speed": 1.3,
+        "Scale": 1.1,
         "Quality": 32,
         "Glow": true,
         "Glow Size": 0.07,
@@ -327,29 +327,29 @@
       }
     },
     "AutoTotem": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Fast Delay (ms)": 20,
-        "Fumble Delay (ms)": 120,
-        "Fumble Chance %": 1,
+        "Fast Delay (ms)": 25,
+        "Fumble Delay (ms)": 180,
+        "Fumble Chance %": 0,
         "Auto Open Inv": true,
         "Auto Close": true
       }
     },
     "HoverTotem": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
         "Mode": "Both",
-        "Speed (Delay)": 1,
+        "Speed (Delay)": 2,
         "Shut Inventory": true,
         "Dhand Mode": "Smart",
         "Manual Slot": 0
       }
     },
     "AutoObsidian": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
         "Only Sword": false,
@@ -359,20 +359,20 @@
       }
     },
     "FastPlace": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Filter": "Items",
+        "Filter": "Blocks",
         "Cooldown": 0.05,
         "Not on Anchor": false
       }
     },
     "AutoTool": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Swap Delay": 0,
-        "Swap Back Delay": 0.734524
+        "Swap Back Delay": 1.5
       }
     },
     "NoBreakDelay": {
@@ -393,14 +393,14 @@
       "settings": {}
     },
     "MaceSwap": {
-      "enabled": true,
-      "keyCode": 77,
+      "enabled": false,
+      "keyCode": -1,
       "settings": {
         "Not on Axe (stunslam)": true
       }
     },
     "Prevent": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
         "Prevent Escape": true,
@@ -409,11 +409,11 @@
       }
     },
     "Notifications": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Duration": 2,
-        "Size": 0.8,
+        "Duration": 1.8523131672597866,
+        "Size": 0.8339380224364075,
         "Ambient Glow": true
       }
     },
@@ -423,15 +423,15 @@
       "settings": {}
     },
     "Nick": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Nickname": "Cyemer"
+        "Nickname": "verycoolgoodplayer"
       }
     },
     "ClickGUI": {
       "enabled": false,
-      "keyCode": -1,
+      "keyCode": 16,
       "settings": {
         "Theme": "Default"
       }
@@ -465,7 +465,7 @@
     "TargetHUD": {
       "x": 563.5,
       "y": 99.02702702702702,
-      "enabled": true,
+      "enabled": false,
       "settings": {
         "Show Health": true,
         "Show Skin": true,
@@ -489,7 +489,7 @@
     "Coordinates": {
       "x": 16,
       "y": 68.5317750182615,
-      "enabled": true,
+      "enabled": false,
       "settings": {
         "Font Size": 13,
         "Corner Radius": 8,
@@ -508,7 +508,7 @@
     "FPS": {
       "x": 20.5,
       "y": 44.50219138056975,
-      "enabled": true,
+      "enabled": false,
       "settings": {
         "Font Size": 14,
         "Corner Radius": 8,
@@ -528,7 +528,7 @@
     "Last Reach": {
       "x": 22.5,
       "y": 94.01753104455807,
-      "enabled": true,
+      "enabled": false,
       "settings": {
         "Font Size": 13,
         "Corner Radius": 8,
