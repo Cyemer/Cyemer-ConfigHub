@@ -431,7 +431,7 @@
     },
     "ClickGUI": {
       "enabled": false,
-      "keyCode": -1,
+      "keyCode": 16,
       "settings": {
         "Theme": "Default"
       }
