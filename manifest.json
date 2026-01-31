@@ -23,6 +23,24 @@
     "description": "Sword config",
     "fileName": "EssentialSword.json"
   },
+    {
+    "name": "Essential SMP",
+    "author": "mindsetunkown",
+    "description": "SMP config",
+    "fileName": "EssentialSMP.json"
+  },
+    {
+    "name": "Essential Mace",
+    "author": "mindsetunkown",
+    "description": "Mace config",
+    "fileName": "EssentialMace.json"
+  },
+    {
+    "name": "Essential Axe",
+    "author": "mindsetunkown",
+    "description": "Axe config",
+    "fileName": "EssentialAxe.json"
+  },
   {
     "name": "Depressing Sword",
     "author": "LarryHits",
