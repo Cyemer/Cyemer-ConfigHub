@@ -335,7 +335,7 @@
     },
     "PearlCatch": {
       "enabled": false,
-      "keyCode": 71,
+      "keyCode": -1,
       "settings": {
         "Rotation Speed": 20.0,
         "Pattern": "Linear",
@@ -597,7 +597,7 @@
     },
     "ElytraSwap": {
       "enabled": false,
-      "keyCode": 82,
+      "keyCode": -1,
       "settings": {}
     },
     "Prevent": {

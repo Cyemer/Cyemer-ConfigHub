@@ -1,5 +1,116 @@
 {
   "theme": "Dark",
+  "hudElements": {
+    "EffectHUD": {
+      "x": 12.0,
+      "y": 118.0,
+      "enabled": false,
+      "settings": {
+        "Show Icon": true,
+        "Time Format": "Minutes:Seconds",
+        "Show Progress Bar": true,
+        "Sort by Duration": true,
+        "BG Opacity": 0.48,
+        "Corner Radius": 6.0,
+        "Spacing": 5.0,
+        "Icon Size": 16.0,
+        "Glow Effect": false,
+        "Glow Size": 6.0,
+        "Glow Intensity": 0.3,
+        "Slide Animation": true,
+        "Fade Animation": true,
+        "Pulse on Low Time": true,
+        "Low Time Threshold": 6.0,
+        "Progress Bar Height": 2.5,
+        "Colored Progress Bar": true
+      }
+    },
+    "TargetHUD": {
+      "x": 560.0,
+      "y": 102.0,
+      "enabled": false,
+      "settings": {
+        "Show Health": true,
+        "Show Skin": true,
+        "Show Totem Pops": true,
+        "Disappear Delay": 0.25,
+        "BG Opacity": 0.55,
+        "Corner Radius": 6.0,
+        "Glow Effect": false,
+        "Glow Size": 4.0,
+        "Glow Intensity": 0.4,
+        "Damage Flash": true,
+        "Particle Effect": true,
+        "Particle Count": 3.0,
+        "Particle Lifespan": 1.6,
+        "Pop on Damage": true,
+        "Pop Strength": 0.35,
+        "Head Shake": true,
+        "Shake Intensity": 4.5
+      }
+    },
+    "Coordinates": {
+      "x": 107.31640625,
+      "y": 53.27734375,
+      "enabled": false,
+      "settings": {
+        "Font Size": 13.0,
+        "Corner Radius": 8.0,
+        "BG Opacity": 0.56,
+        "Gradient BG": true,
+        "Show Border": true,
+        "Border Width": 1.5,
+        "Glow Effect": false,
+        "Glow Size": 8.0,
+        "Glow Intensity": 0.3,
+        "Show Decimals": true,
+        "Decimal Places": 1.0,
+        "Pulse Strength": 0.1
+      }
+    },
+    "FPS": {
+      "x": -2.802734375,
+      "y": 0.6484375,
+      "enabled": true,
+      "settings": {
+        "Font Size": 10.03583984375,
+        "Corner Radius": 8.0,
+        "BG Opacity": 0.0,
+        "Gradient BG": false,
+        "Show Border": false,
+        "Border Width": 2.0,
+        "Glow Effect": false,
+        "Glow Size": 8.0,
+        "Glow Intensity": 0.3,
+        "Color Coded": false,
+        "Flash on Change": false,
+        "Pulse on Change": false,
+        "Pulse Strength": 0.1
+      }
+    },
+    "Last Reach": {
+      "x": 37.076171875,
+      "y": 0.6328125,
+      "enabled": true,
+      "settings": {
+        "Font Size": 9.9681640625,
+        "Corner Radius": 8.0,
+        "BG Opacity": 0.0,
+        "Gradient BG": false,
+        "Show Border": false,
+        "Border Width": 1.5,
+        "Glow Effect": false,
+        "Glow on Suspicious": false,
+        "Glow Size": 8.0,
+        "Glow Intensity": 0.3,
+        "Color Coded": false,
+        "Pulse on Hit": false,
+        "Pulse Strength": 0.1,
+        "Suspicious Threshold": 3.0,
+        "Very High Threshold": 3.5
+      }
+    }
+  },
   "modules": {
     "TriggerBot": {
       "enabled": true,
@@ -430,8 +541,8 @@
       }
     },
     "ClickGUI": {
-      "enabled": true,
-      "keyCode": 16,
+      "enabled": false,
+      "keyCode": -1,
       "settings": {
         "Theme": "Modern"
       }
