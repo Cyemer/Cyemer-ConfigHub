@@ -430,8 +430,8 @@
       }
     },
     "ClickGUI": {
-      "enabled": true,
-      "keyCode": 16,
+      "enabled": false,
+      "keyCode": -1,
       "settings": {
         "Theme": "Modern"
       }
