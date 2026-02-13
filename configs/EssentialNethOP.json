@@ -2,9 +2,9 @@
   "theme": "Dark",
   "hudElements": {
     "EffectHUD": {
-      "x": 10.0,
-      "y": 120.0,
-      "enabled": true,
+      "x": 76.509765625,
+      "y": 167.876953125,
+      "enabled": false,
       "settings": {
         "Show Icon": true,
         "Time Format": "Minutes:Seconds",
@@ -26,33 +26,33 @@
       }
     },
     "TargetHUD": {
-      "x": 563.5,
-      "y": 99.02702702702702,
-      "enabled": true,
+      "x": 10.0,
+      "y": 60.0,
+      "enabled": false,
       "settings": {
         "Show Health": true,
         "Show Skin": true,
         "Show Totem Pops": true,
-        "Disappear Delay": 0.0,
-        "BG Opacity": 0.65625,
+        "Disappear Delay": 5.0,
+        "BG Opacity": 0.56,
         "Corner Radius": 8.0,
         "Glow Effect": true,
-        "Glow Size": 6.65625,
-        "Glow Intensity": 1.0,
+        "Glow Size": 12.0,
+        "Glow Intensity": 0.6,
         "Damage Flash": true,
         "Particle Effect": true,
         "Particle Count": 5.0,
         "Particle Lifespan": 2.75,
         "Pop on Damage": true,
-        "Pop Strength": 0.5,
+        "Pop Strength": 0.15,
         "Head Shake": true,
-        "Shake Intensity": 7.28125
+        "Shake Intensity": 3.0
       }
     },
     "Coordinates": {
-      "x": 16.0,
-      "y": 68.5317750182615,
-      "enabled": true,
+      "x": 10.0,
+      "y": 35.0,
+      "enabled": false,
       "settings": {
         "Font Size": 13.0,
         "Corner Radius": 8.0,
@@ -60,51 +60,51 @@
         "Gradient BG": true,
         "Show Border": true,
         "Border Width": 1.5,
-        "Glow Effect": true,
-        "Glow Size": 10.1875,
-        "Glow Intensity": 1.0,
+        "Glow Effect": false,
+        "Glow Size": 8.0,
+        "Glow Intensity": 0.3,
         "Show Decimals": true,
         "Decimal Places": 1.0,
         "Pulse Strength": 0.1
       }
     },
     "FPS": {
-      "x": 20.5,
-      "y": 44.50219138056975,
+      "x": -2.802734375,
+      "y": 0.6484375,
       "enabled": true,
       "settings": {
-        "Font Size": 14.0,
+        "Font Size": 10.03583984375,
         "Corner Radius": 8.0,
-        "BG Opacity": 0.56,
-        "Gradient BG": true,
-        "Show Border": true,
+        "BG Opacity": 0.0,
+        "Gradient BG": false,
+        "Show Border": false,
         "Border Width": 2.0,
-        "Glow Effect": true,
-        "Glow Size": 10.375,
-        "Glow Intensity": 0.996875,
-        "Color Coded": true,
-        "Flash on Change": true,
+        "Glow Effect": false,
+        "Glow Size": 8.0,
+        "Glow Intensity": 0.3,
+        "Color Coded": false,
+        "Flash on Change": false,
         "Pulse on Change": false,
         "Pulse Strength": 0.1
       }
     },
     "Last Reach": {
-      "x": 22.5,
-      "y": 94.01753104455807,
+      "x": 37.076171875,
+      "y": 0.6328125,
       "enabled": true,
       "settings": {
-        "Font Size": 13.0,
+        "Font Size": 9.9681640625,
         "Corner Radius": 8.0,
-        "BG Opacity": 0.56,
-        "Gradient BG": true,
-        "Show Border": true,
+        "BG Opacity": 0.0,
+        "Gradient BG": false,
+        "Show Border": false,
         "Border Width": 1.5,
-        "Glow Effect": true,
-        "Glow on Suspicious": true,
-        "Glow Size": 10.0625,
-        "Glow Intensity": 1.0,
-        "Color Coded": true,
-        "Pulse on Hit": true,
+        "Glow Effect": false,
+        "Glow on Suspicious": false,
+        "Glow Size": 8.0,
+        "Glow Intensity": 0.3,
+        "Color Coded": false,
+        "Pulse on Hit": false,
         "Pulse Strength": 0.1,
         "Suspicious Threshold": 3.0,
         "Very High Threshold": 3.5
@@ -121,7 +121,7 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Cape": "kitty"
+        "Cape": "cyemer"
       }
     },
     "ArrayList": {
@@ -130,29 +130,29 @@
       "settings": {
         "Position": "Top-Right",
         "Sort": true,
-        "Text Size": 1.2454424472151686,
-        "Padding": 0.6333331289270828,
+        "Text Size": 1.004424778761062,
+        "Padding": 3.0,
         "Default Colors": true,
         "Text Color 1": -1,
         "Text Color 2": -16738561,
         "Bar Color 1": -14145281,
         "Bar Color 2": -4970241,
-        "Color Speed": 4.932309532151086,
+        "Color Speed": 3.0,
         "Color Spread": 0.5,
-        "BG Opacity": 0.5412094190873985,
+        "BG Opacity": 0.0,
         "Sidebar": true,
         "Sidebar Width": 2.0,
-        "Particles": true,
+        "Particles": false,
         "Text Shadow": true,
         "Pop Animation": "Slide",
-        "Animation Speed": 10.0
+        "Animation Speed": 4.0
       }
     },
     "AutoCrystal": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Delay (ms)": 0.0,
+        "Delay (ms)": 100.0,
         "Only On Right Click": true,
         "SimClick": true,
         "Swap to crystal on Right Click": true
@@ -162,48 +162,48 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Min Distance": 0.05,
-        "Max Distance": 0.05,
-        "Edge Distance": 0.1,
+        "Min Distance": 0.1,
+        "Max Distance": 0.3,
+        "Edge Distance": 0.3,
         "Mode": "Backwards Only",
-        "Visual Indicator": true
+        "Visual Indicator": false
       }
     },
     "AutoDrain": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Mode": "Legit",
-        "Range": 3.763410729482366,
-        "Legit FOV": 14.782398213925037,
+        "Range": 4.5,
+        "Legit FOV": 45.0,
         "Silent": true,
         "Strength": 10.0,
         "Pattern": "Smooth",
         "Randomness": 0.1,
-        "Start Delay": 54.650564139087706,
+        "Start Delay": 75.0,
         "Auto Switch": true,
         "Ignore Own Water": true
       }
     },
     "AutoAnchor": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Speed Mode": true,
-        "Speed": 10.0,
+        "Speed Mode": false,
+        "Speed": 7.5,
         "Use Totem": true,
         "Sim Click": false,
-        "Safe Mode": true,
+        "Safe Mode": false,
         "Only Own Anchors": true,
-        "Silent Rotation": true,
-        "Rotation Strength": 20.0,
+        "Silent Rotation": false,
+        "Rotation Strength": 10.0,
         "Pattern": "Sine",
         "Jitter": 0.1
       }
     },
     "TriggerBot": {
-      "enabled": false,
-      "keyCode": 82,
+      "enabled": true,
+      "keyCode": -1,
       "settings": {
         "Crit Prio": true,
         "Only on LMB": false,
@@ -237,7 +237,7 @@
       }
     },
     "StreamerMode": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {}
     },
@@ -246,7 +246,7 @@
       "keyCode": -1,
       "settings": {
         "Swap Delay": 0.0,
-        "Swap Back Delay": 3.7055954159301767
+        "Swap Back Delay": 1.0
       }
     },
     "AnchorMacro": {
@@ -262,8 +262,8 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Swing Animation": "Chop",
-        "Swing Speed": 0.46159240665782897,
+        "Swing Animation": "Slice",
+        "Swing Speed": 1.0,
         "Instant Equip": true,
         "Only Swords": false,
         "Ignore Offhand": true
@@ -273,7 +273,7 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Nickname": "Cyemer"
+        "Nickname": "Player"
       }
     },
     "HudEditor": {
@@ -282,13 +282,13 @@
       "settings": {}
     },
     "AutoObsidian": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Only Sword": true,
         "SimClick": true,
-        "Swap Back": false,
-        "Delay (ms)": 0.0
+        "Swap Back": true,
+        "Delay (ms)": 100.0
       }
     },
     "SelfDestruct": {
@@ -304,15 +304,15 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Outer Glow": 2016647142,
-        "Inner Glow": 1176452002
+        "Outer Glow": 2023306214,
+        "Inner Glow": 1188861695
       }
     },
     "AutoPot": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Health": 10.0,
+        "Health": 7.526086956521739,
         "Pot To Health": 18.0,
         "Strength": 7.856521739130435,
         "Pattern": "Sine",
@@ -324,21 +324,21 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Duration": 1.8523131672597866,
-        "Size": 0.8339380224364075,
+        "Duration": 3.0,
+        "Size": 1.0,
         "Ambient Glow": true
       }
     },
     "AutoShieldBreak": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Hold Time (ms)": 0.0,
-        "Spam Prevent (ms)": 500.0,
-        "Swap Duration (Ticks)": 2.0,
+        "Hold Time (ms)": 3.849557522123893,
+        "Spam Prevent (ms)": 738.9380530973452,
+        "Swap Duration (Ticks)": 1.238938053097345,
         "Auto Switch": true,
         "Double Click": true,
-        "Show Text": true,
+        "Show Text": false,
         "Ignore Friends": true
       }
     },
@@ -356,7 +356,7 @@
     },
     "AutoWindCharge": {
       "enabled": false,
-      "keyCode": 96,
+      "keyCode": -1,
       "settings": {
         "Rot Speed": 12.0,
         "Pattern": "Sine",
@@ -370,7 +370,7 @@
       }
     },
     "TargetEffect": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
         "Effect": "Pulse",
@@ -404,20 +404,20 @@
       "keyCode": -1,
       "settings": {
         "Apply To": "Item Only",
-        "Position X": 0.37279842019566134,
-        "Position Y": 0.1270667311850433,
-        "Position Z": -0.3351661815742504,
-        "Scale X": 0.9990399165887569,
-        "Scale Y": 0.9990399165887569,
-        "Scale Z": 0.9990399165887569
+        "Position X": 0.7964601769911503,
+        "Position Y": -0.33628318584070804,
+        "Position Z": -0.654867256637168,
+        "Scale X": 0.8442477876106195,
+        "Scale Y": 1.0,
+        "Scale Z": 1.0
       }
     },
     "AutoJumpReset": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
         "Mode": "Normal",
-        "Chance %": 100.0
+        "Chance %": 95.57522123893806
       }
     },
     "NoBreakDelay": {
@@ -426,7 +426,7 @@
       "settings": {}
     },
     "WebBreaker": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
         "Pickup Water": true
@@ -441,7 +441,7 @@
     },
     "MaceSwap": {
       "enabled": false,
-      "keyCode": 92,
+      "keyCode": -1,
       "settings": {
         "Not on Axe": true,
         "Weapon Only": true,
@@ -481,21 +481,21 @@
     },
     "AimAssist": {
       "enabled": false,
-      "keyCode": 89,
+      "keyCode": -1,
       "settings": {
-        "Strength": 1.0,
+        "Strength": 4.608695652173913,
         "Pattern": "Sine",
         "Randomness": 0.36086956521739133,
         "Stop Mode": "Hitbox Edge",
         "Hitbox Padding": -0.13260869565217392,
-        "Distance": 4.6,
-        "FOV": 180.0,
+        "Distance": 3.0,
+        "FOV": 78.73913043478261,
         "Visible Only": true,
         "Switch Delay (ms)": 200.0,
         "Players Only": true,
         "Only Weapon": true,
         "Only On Bind": false,
-        "Sticky Mode": true,
+        "Sticky Mode": false,
         "Ignore Friends": true
       }
     },
@@ -525,12 +525,12 @@
       }
     },
     "ESP": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Mode": "Effect",
-        "Color": -1423850066,
-        "Opaque": true,
+        "Mode": "Sphere",
+        "Color": -52686,
+        "Opaque": false,
         "Size": 1.0,
         "Hide Armor": false,
         "Utility Blocks": false,
@@ -543,12 +543,12 @@
       }
     },
     "WTap": {
-      "enabled": false,
+      "enabled": true,
       "keyCode": -1,
       "settings": {
-        "Mode": "S",
-        "Release Time (ms)": 78.79631210546573,
-        "Press Time (ms)": 85.5219758222799,
+        "Mode": "W",
+        "Release Time (ms)": 50.0,
+        "Press Time (ms)": 50.0,
         "On Hit Only": true,
         "Only On Ground": false
       }
@@ -558,11 +558,11 @@
       "keyCode": -1,
       "settings": {
         "Color": -16711681,
-        "Tinted": false,
+        "Tinted": true,
         "Breathing": true,
         "Quality": "Low",
-        "Anim Speed": 2.38572909773608,
-        "Outline Width": 10.715698057006815,
+        "Anim Speed": 2.0,
+        "Outline Width": 10.0,
         "Glow Intensity": 0.6
       }
     },
@@ -581,12 +581,12 @@
       }
     },
     "AutoTotem": {
-      "enabled": true,
+      "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Fast Delay (ms)": 1.0,
-        "Fumble Delay (ms)": 300.0,
-        "Fumble Chance %": 0.0,
+        "Fast Delay (ms)": 67.0,
+        "Fumble Delay (ms)": 325.0,
+        "Fumble Chance %": 55.0,
         "Auto Open Inv": true,
         "Auto Close": true
       }
@@ -595,9 +595,9 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Filter": "Blocks",
-        "Cooldown": 0.20372168060775625,
-        "Not on Anchor": true
+        "Filter": "All",
+        "Cooldown": 0.0,
+        "Not on Anchor": false
       }
     },
     "ConfigManager": {
@@ -609,15 +609,15 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Min Delay": 207.6759345425722,
-        "Max Delay": 401.0387664009793,
-        "Show Bar": false,
-        "Show MS": false,
+        "Min Delay": 200.0,
+        "Max Delay": 400.0,
+        "Show Bar": true,
+        "Show MS": true,
         "Avoid Mode": true,
         "Disable on Elytra": true,
         "Flush on Action": true,
         "Highlight": true,
-        "Mode": "Box",
+        "Mode": "Both",
         "Color": 2026385970
       }
     },
@@ -629,7 +629,7 @@
         "Core Color": -7722014,
         "Rainbow": false,
         "Line Width": 1.2,
-        "Glow Radius": 20.0,
+        "Glow Radius": 3.7,
         "Pulse Animation": true,
         "Expansion": -0.1,
         "Fill Opacity": 100.0,
@@ -645,14 +645,14 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Prevent Escape": true,
+        "Prevent Escape": false,
         "Double Click Time": 300.0,
         "TabOut": false
       }
     },
     "AutoMace": {
       "enabled": false,
-      "keyCode": -97,
+      "keyCode": -1,
       "settings": {
         "Swing Range": 2.995575221238938,
         "Aim Range": 4.070796460176991,
@@ -673,15 +673,15 @@
       "enabled": false,
       "keyCode": -1,
       "settings": {
-        "Text Size": 2.6110471260979304,
-        "Adopt Theme": false,
+        "Text Size": 2.0,
+        "Adopt Theme": true,
         "Glow": true,
-        "Glow Size": 100.0,
-        "Glow Intensity": 0.212752193992818,
-        "Glow Layers": 4.52799375280436,
+        "Glow Size": 15.0,
+        "Glow Intensity": 0.6,
+        "Glow Layers": 8.0,
         "Text Shadow": true,
         "Rainbow Mode": false,
-        "Rainbow Speed": 6.743155953811014,
+        "Rainbow Speed": 5.0,
         "Background": false,
         "Rounded Corners": true,
         "Corner Radius": 6.0,
@@ -690,8 +690,8 @@
         "Particles": true,
         "Particle Count": 8.29,
         "Particle Speed": 0.1,
-        "Particle Size": 3.0150884035924084,
-        "Particle Opacity": 1.0
+        "Particle Size": 2.0,
+        "Particle Opacity": 0.6
       }
     },
     "Interface": {
@@ -720,6 +720,6 @@
   },
   "panelPositions": {},
   "cameraX": 0.0,
-  "cameraY": 0.0,
-  "zoom": 0.9291269368392261
+  "cameraY": -70.0,
+  "zoom": 0.8880546458802624
 }
